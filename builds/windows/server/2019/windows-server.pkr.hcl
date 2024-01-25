@@ -321,8 +321,6 @@ source "vsphere-iso" "windows-server-datacenter-core" {
       build_password       = var.build_password
       vm_inst_os_language  = var.vm_inst_os_language
       vm_inst_os_keyboard  = var.vm_inst_os_keyboard
-      vm_inst_os_language  = var.vm_inst_os_language
-      vm_inst_os_keyboard  = var.vm_inst_os_keyboard
       vm_inst_os_image     = var.vm_inst_os_image_datacenter_core
       vm_inst_os_kms_key   = var.vm_inst_os_kms_key_datacenter
       vm_guest_os_language = var.vm_guest_os_language
